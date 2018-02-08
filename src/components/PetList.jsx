@@ -32,7 +32,7 @@ var masterPetList= [
   },
   {
     name: 'Agrafka',
-    type: 'ct',
+    type: 'cat',
     breed: 'european shorthair',
     age: 20,
     description: 'Quiet, little shy'
@@ -50,7 +50,8 @@ var masterPetList= [
 function PetList(){
   return (
     <div style={{backgroundColor: 'white', padding: '20px'}}>
-      <h2 style={{textAlign: 'center'}}>Pets Available for adoption</h2>
+      <br></br>
+      <h2 style={{textAlign: 'center', color: '#008080'}}>Pets Available for adoption</h2>
       <br></br>
       <br></br>
       <br></br>

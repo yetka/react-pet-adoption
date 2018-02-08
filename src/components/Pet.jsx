@@ -7,8 +7,8 @@ function Pet(props){
   return (
     <div className="col-md-4">
       <div>
-        <img style={{width: '330px'}} src={Shiluette} alt="Toby!"></img>
-        <h3 style={{padding: '10px', textAlign: 'center'}}>{props.name}</h3>
+        <img style={{width: '250px'}} src={Shiluette} alt="shiluette of cat and dog"></img>
+        <h3 style={{padding: '10px', textAlign: 'center', color: '#008080'}}>{props.name}</h3>
       </div>
       <div>
         <ul>
