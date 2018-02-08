@@ -9,9 +9,12 @@ import { Switch, Route } from 'react-router-dom';
 
 function App(){
   return (
-    <div>
-      <NavBar />
+    <div className="container">
       <Header />
+      <NavBar />
+      <br></br>
+      <br></br>
+      <br></br>
       <Switch >
         <Route exact path='/' component={About} />
         <Route path='/pets' component={PetList} />
