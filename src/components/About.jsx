@@ -3,7 +3,7 @@ import React from 'react';
 
 function About(){
   return (
-    <div style={{padding: '15px'}}>
+    <div style={{padding: '35px', backgroundColor: 'white'}}>
       <h2 style={{textAlign: 'center'}}>BEFORE YOU ADOPT</h2>
       <p>Before making the decision to adopt, think about your reasons for wanting a pet and how he or she will fit into your life. The following considerations can help you choose a pet that will be a good fit with your family and lifestyle. These tips are excerpts from an article by the the Humane Society of the United States (HSUS).</p>
       <br></br>
