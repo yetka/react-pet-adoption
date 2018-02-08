@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Toby from '../assets/images/Toby.jpg';
+import Shiluette from '../assets/images/shiluette.png';
 
 
 function Pet(props){
   return (
     <div className="col-md-4">
       <div>
-        <img style={{width: '330px'}} src={Toby} alt="Toby!"></img>
+        <img style={{width: '330px'}} src={Shiluette} alt="Toby!"></img>
         <h3 style={{padding: '10px', textAlign: 'center'}}>{props.name}</h3>
       </div>
       <div>
